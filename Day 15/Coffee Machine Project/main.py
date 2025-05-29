@@ -1,4 +1,4 @@
-from inventory import menu, resources
+from inventory import menu, resources, banner
 serve_next = True
 
 coffee_inventory = resources
@@ -13,6 +13,7 @@ dimes = 0.1
 nickels = 0.05
 pennies = 0.01
 
+print(banner)
 
 while serve_next:
     customer_order = input("What would you like? espresso/latte/cappuccino: ").lower()
@@ -80,5 +81,6 @@ while serve_next:
 #         print(resources)
 #
 # coffee_inventory['water']
-
+# TODO address the issue of customer change
+# determine what to do when customer payment is above and below cost price.
 
