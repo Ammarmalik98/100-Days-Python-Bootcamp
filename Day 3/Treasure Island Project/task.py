@@ -37,9 +37,9 @@ if choice1 == "Left" or choice1 == "left":
     print("The tablet asks: 'What has to be broken before it can be used?'")
     print("A. A promise\nB. An egg\nC. A seal")
 
-    choice2 = input("Your answer (A, B, or C): ")
+    choice2 = input("Your answer (A, B, or C): ").lower()
 
-    if choice2 == "B" or "b":
+    if choice2 == "b":
         print("You choose correctly, please proceed to the next scenario!")
         print("SCENARIO 3: The Guardian’s Choice")
         print("A spectral guardian blocks your way. "
